@@ -1,0 +1,27 @@
+---
+const linkedin = "LinkedIn";
+const usernamelink = "beatriz-garcía-muñoz-46144a11a";
+
+import Social from './Social.astro';
+---
+<style>
+    footer {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    a {
+        padding: 0.5rem 1rem;
+        color: white;
+        background-color: #4c1d95;
+        text-decoration: none;
+    }
+</style>
+
+<footer>
+    <Social platform="github" username="beaa0904" />
+    <a href={`https://www.${linkedin}.com/in/${usernamelink}/`}>{linkedin}</a>
+    
+    
+</footer>
